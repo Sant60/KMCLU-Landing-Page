@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.topnav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background: #dcdada;
+}
+
+.topnav .tn1 {
+  flex-direction: row;
+  list-style: none;
+  margin: 0 0 0 2vw;
+}
+.topnav .tn1 li {
+  cursor: pointer;
+  color: #393939;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 2px 11px 2px 0px;
+  border-right: 1px solid #393939;
+  margin: 7px 11px 0 0;
+  position: relative;
+  cursor: pointer;
+}
+.topnav .tn2 {
+  display: flex;
+  list-style: none;
+  margin: 0 2vw 0 0;
+}
+.topnav .tn2 li {
+  padding: 3px 8px 0 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.topnav .tn2 img {
+  width: 20px;
+}
+
+.topnav .tn2 li input {
+  font-size: inherit;
+  padding-inline-end: 20px;
+}
+.topnav .tn2 li i {
+  position: absolute;
+  top: 7px;
+  right: 2.8vw;
+  cursor: pointer;
+}
+.midnav{
+  display: flex;
+  justify-content:space-between;
+}
+.midnav span {
+  display: flex;
+  justify-content: space-between;
+}
+header section .midnav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+header {
+  display: flex;
+  flex-direction: column;
+}
+.mnd {
+  /* margin: 2vw 7vw 0 3vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+#kmc {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#email {
+  margin: 0 0 0 3em;
+}
+.nav3 {
+  width: 100%;
+  background: rgba(0, 30, 71, 0.857);
+  height: auto;
+}
+.nvl3 {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  margin: 0 0 0 1.3vw;
+
+  height: 5.7vh;
+}
+.nvl3 li {
+  text-align: center;
+  align-items: center;
+
+  padding-inline-start: 5px;
+  color: white;
+  padding-inline-end: 13px;
+  padding-top: 12px;
+  justify-content: center;
+  cursor: pointer;
+  width: max-content;
+}
+.nvl3 li:hover {
+  background: #ffffff;
+  color: black;
+}
+.nvl3 li i {
+  padding: 0 0 0 8px;
+}
+#hom {
+  background: rgb(252, 233, 199);
+  color: black;
+}
+.maind {
+  display: flex;
+  justify-content: space-between;
+height:auto;
+  
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+main .md1 .l1 {
+  margin: 0 2vw 0 0.6vw;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  justify-content: space-between;
+  /* height: 57vh;
+  width: 17vw; */
+  position: relative;
+}
+main .md1 .l1 li {
+  padding: 9.7px 15px 8.7px 8px;
+  background-color: #fdf7e9;
+  border: 1px solid #ff752f;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 100%;
+  height: max-content;
+  font-weight: 500;
+  position: relative;
+  transition-duration: 0.3s;
+}
+.md1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+}
+main .md1 .l1 li:hover {
+  transition-duration: 0.3s;
+}
+main .md1 .l1 li i {
+  color: #ff752f;
+  padding-right: 10px;
+}
+main .md1 .l2 {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+  font-size: 40px;
+  list-style: none;
+}
+main .md1 .l2 li{
+  width:max-content;
+}
+main .md1 .l2 li, i {
+  transition: transform 0.6s ease-in-out;
+  cursor: pointer;
+  
+}
+main .md1 .l2 li i:hover {
+  transform: rotate(360deg);
+}
+
+.md2 {
+  /* height: 37vw; */
+  margin: 0.4vw 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+.md2 img {
+  width: 100%;
+  background-size: cover;
+}
+.md2 span {
+  border: 1px dotted black;
+}
+.md3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  height: 100%;
+}
+
+.md3 span img {
+  width: 6rem;
+  border-radius: 100%;
+}
+.md3 span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px;
+  border: 1px solid black;
+text-align: center;
+}
+.md3 span ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  list-style: none;
+  justify-content: space-around;
+}
+.md3 span ul li {
+  color: rgb(255, 255, 255);
+  background: #ff752f;
+  display: flex;
+  width: max-content;
+  justify-content: center;
+  align-items: center;
+width:40%;
+}
+.md3 span ul li:hover {
+  background: rgba(0, 30, 71, 0.857);
+  cursor: pointer;
+}
+.mdd1 {
+  display: flex;
+  justify-content: center;
+  background-image: url(./images/pattern.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 300px;
+  padding: 2% 0 0 0;
+}
+.mdd1 .md1d {
+  width: 60%;
+  height: 100%;
+  border: 2px solid black;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: start;
+  padding: 10px 0 0 20px;
+  line-height: 30px;
+}
+.mdd1 .md1d h1 {
+  position: absolute;
+  margin-top: -30px;
+  background: #ffffff;
+}
+.mdd1 .md1d span {
+  margin-top: 10px;
+  color: #ff752f;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.mdd1 .md1d button {
+  background-color: #db7544;
+  color: #fff;
+  /* border-color: #b5572a; */
+  border: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  width: 120px;
+  cursor: pointer;
+  height: 30px;
+  margin-top: 20px;
+}
+.mdd1 .md2d {
+  height: 100%;
+  width: 30%;
+  margin: 0 0 0 2%;
+  overflow: scroll;
+  border: 2px solid black;
+}
+.mdd1 .md2d ul li a {
+  font-size: 15px;
+}
+.md {
+  display: flex;
+  width: 90%;
+  height: 300px;
+
+  margin: 20% 0 2% 5%;
+  justify-content: space-between;
+}
+.mdd {
+  width: 30%;
+  height: 100%;
+  border: 1px solid black;
+}
+.md .mdd {
+  padding: 2% 0 0 1%;
+}
+
+@media (max-width: 800px) {
+  .maind {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+  }
+
+  .tn1 {
+    display: none;
+  }
+  .midnav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  li,
+  span {
+    width: 100%;
+  }
+  .nvl3 li {
+    display: none;
+  }
+
+  .md3,
+  span {
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .md1:nth-child(1) {
+    order: 3;
+  }
+  .md3 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .l2{
+    width: 100%;
+    justify-content: center;
+  }
+}
